@@ -1,6 +1,0 @@
-@include('kabag::layouts.head')
-@include('kabag::layouts.navbar')
-@include('sweetalert::alert')
-@include('kabag::layouts.sidebar')
-@yield('content')
-@include('kabag::layouts.footer')

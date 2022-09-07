@@ -1,6 +1,0 @@
-@include('ppr::layouts.head')
-@include('ppr::layouts.navbar')
-@include('sweetalert::alert')
-@include('ppr::layouts.sidebar')
-@yield('content')
-@include('ppr::layouts.footer')

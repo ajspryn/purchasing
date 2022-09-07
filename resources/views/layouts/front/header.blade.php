@@ -64,21 +64,6 @@
                     <li class="nav-item"><a class="nav-link menu-toggle" href="#"><i class="ficon"
                                 data-feather="menu"></i></a></li>
                 </ul>
-                {{-- <ul class="nav navbar-nav bookmark-icons">
-            <li class="nav-item d-none d-lg-block"><a class="nav-link" href="app-email.html" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Email"><i class="ficon" data-feather="mail"></i></a></li>
-            <li class="nav-item d-none d-lg-block"><a class="nav-link" href="app-chat.html" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Chat"><i class="ficon" data-feather="message-square"></i></a></li>
-            <li class="nav-item d-none d-lg-block"><a class="nav-link" href="app-calendar.html" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Calendar"><i class="ficon" data-feather="calendar"></i></a></li>
-            <li class="nav-item d-none d-lg-block"><a class="nav-link" href="app-todo.html" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Todo"><i class="ficon" data-feather="check-square"></i></a></li>
-          </ul>
-          <ul class="nav navbar-nav">
-            <li class="nav-item d-none d-lg-block"><a class="nav-link bookmark-star"><i class="ficon text-warning" data-feather="star"></i></a>
-              <div class="bookmark-input search-input">
-                <div class="bookmark-input-icon"><i data-feather="search"></i></div>
-                <input class="form-control input" type="text" placeholder="Bookmark" tabindex="0" data-search="search">
-                <ul class="search-list search-list-bookmark"></ul>
-              </div>
-            </li>
-          </ul> --}}
             </div>
             <ul class="nav navbar-nav align-items-center ms-auto mb-0 mt-0">
                 <li class="nav-item d-none d-lg-block"><a class="nav-link nav-link-style"><i class="ficon"
@@ -118,7 +103,8 @@
                         <a class="nav-link dropdown-toggle dropdown-user-link" id="dropdown-user" href="#"
                             data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <div class="user-nav d-sm-flex d-none">
-                                <span class="user-name fw-bolder">Assalamualaikum</span>
+                                <span class="user-name fw-bolder"><i class="me-50"
+                                        data-feather="log-in">Login</span>
                                 {{-- <span class="user-status fw-bolder"> Selamat Datang Di BPRS BTB </span> --}}
                                 <span
                                     class="user-status">{{ carbon\Carbon::now()->isoformat('dddd, D MMMM Y') }}</span>

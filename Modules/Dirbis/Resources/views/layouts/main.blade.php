@@ -1,6 +1,0 @@
-@include('dirbis::layouts.head')
-@include('sweetalert::alert')
-@include('dirbis::layouts.navbar')
-@include('dirbis::layouts.sidebar')
-@yield('content')
-@include('dirbis::layouts.footer')

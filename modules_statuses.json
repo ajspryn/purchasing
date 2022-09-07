@@ -1,14 +1,3 @@
 {
-    "Form": true,
-    "Skpd": true,
-    "Admin": true,
-    "Blog": true,
-    "Kabag": true,
-    "Analis": true,
-    "Pasar": true,
-    "Umkm": true,
-    "Dirbis": true,
-    "Blr": true,
-    "Simulasi": true,
-    "Ppr": true
+    "Admin": true
 }
